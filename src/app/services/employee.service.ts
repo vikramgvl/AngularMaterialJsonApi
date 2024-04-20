@@ -14,4 +14,7 @@ export class EmployeeService {
   getUser() {
     return this._http.get<any>("http://localhost:3000/employee")
   }
+  deleteUser(id: number) {
+    return this._http.delete<any>("http://localhost:3000/employee/" + id)
+  }
 }

@@ -7,3 +7,10 @@
     font-size: 30px;
     font-family: fantasy;
 }  
+table {
+  width: 100%;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}

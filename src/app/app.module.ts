@@ -31,7 +31,7 @@ import{MatSortModule} from '@angular/material/sort';
     AppRoutingModule,MatPaginatorModule,
      MatIconModule, MatButtonModule,MatRadioModule,MatSelectModule,
      MatToolbarModule,HttpClientModule, MatInputModule,
-     ReactiveFormsModule,MatDialogModule,MatFormFieldModule,
+     ReactiveFormsModule,MatDialogModule,MatFormFieldModule,MatSelectModule,
      MatTableModule,MatDatepickerModule,MatCheckboxModule
   ],
   providers: [

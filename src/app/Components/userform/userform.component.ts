@@ -35,4 +35,8 @@ export class UserformComponent {
     }
     //console.log(this.registerForm.value)
   }
+  onClose() {
+    console.log("close")
+    this._dialogref.close();
+  }
 }
